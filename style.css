@@ -1,0 +1,22 @@
++body {
++    font-family: Arial, sans-serif;
++    max-width: 600px;
++    margin: 40px auto;
++    padding: 0 20px;
++}
++
++textarea {
++    width: 100%;
++    height: 150px;
++    margin-bottom: 10px;
++}
++
++#decode-btn {
++    padding: 8px 16px;
++}
++
++#decoded-output {
++    background: #f0f0f0;
++    padding: 10px;
++    min-height: 50px;
++}
