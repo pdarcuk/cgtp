@@ -1,0 +1,22 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Pigpen Decoder</title>
++    <link rel="stylesheet" href="style.css">
++</head>
++<body>
++    <h1>Pigpen Cipher Decoder</h1>
++    <div id="image-container">
++        <input type="file" id="mapping-input" accept="image/*" />
++        <img id="mapping-image" style="display:none;" alt="Mapping" />
++    </div>
++    <div id="decoder-container">
++        <textarea id="cipher-text" placeholder="Enter encoded message here"></textarea>
++        <button id="decode-btn">Decode</button>
++        <pre id="decoded-output"></pre>
++    </div>
++    <script src="decoder.js"></script>
++</body>
++</html>
